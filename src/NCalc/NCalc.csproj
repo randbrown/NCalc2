@@ -4,14 +4,14 @@
     <Description>This is a port of NCalc for .NET Core applications.</Description>
     <AssemblyTitle>CoreCLR-NCalc</AssemblyTitle>
     <VersionPrefix>2.1.1</VersionPrefix>
-    <Authors>Sebastian Klose</Authors>
+    <Authors>Sebastian Klose, Randy Brown</Authors>
     <TargetFrameworks>net45;netstandard1.3</TargetFrameworks>
     <AssemblyName>NCalc</AssemblyName>
     <PackageId>NCalc</PackageId>
     <PackageTags>ncalc;coreclr;expression;evaluator</PackageTags>
-    <PackageProjectUrl>https://github.com/sklose/NCalc2</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/randbrown/NCalc2</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>git://github.com/sklose/NCalc2</RepositoryUrl>
+    <RepositoryUrl>https://github.com/randbrown/NCalc2</RepositoryUrl>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.3' ">1.6.0</NetStandardImplicitPackageVersion>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
@@ -22,6 +22,7 @@
     <GenerateNeutralResourcesLanguageAttribute>false</GenerateNeutralResourcesLanguageAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <Version>2.1.2</Version>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
